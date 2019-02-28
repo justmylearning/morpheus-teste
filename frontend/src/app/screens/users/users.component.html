@@ -1,0 +1,12 @@
+<app-layout>
+    <app-card title="LISTAGEM DE USUÁRIOS">
+        <div class="filter-container">
+            <input [(ngModel)]="filterInputValue" type="text" (keyup)="filter()" placeholder="Digite um nome..." name="name">
+        </div>
+        <ul>
+            <li *ngFor="let user of users">
+                {{user.name}}
+            </li>
+        </ul>
+    </app-card>
+</app-layout>

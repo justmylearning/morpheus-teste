@@ -1,0 +1,10 @@
+.screen{
+    flex: 1;
+    background:#e4e4e4;
+    min-height: 800px;
+}
+
+.container{
+    padding: 0px 20px;
+    height: 100%;
+}

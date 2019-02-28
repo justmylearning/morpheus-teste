@@ -1,0 +1,21 @@
+form{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"]{
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+    border-width: 1px;
+    margin-right: 10px;
+}
+
+button{
+    padding: 5px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

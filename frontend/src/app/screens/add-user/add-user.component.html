@@ -1,0 +1,8 @@
+<app-layout>
+    <app-card title="ADICIONAR USUÁRIO">
+        <form onsubmit="(e)=>{e.preventDefault()}">
+            <input [(ngModel)]="form.name" type="text" placeholder="Nome" name="name" required>
+            <button type="submit" (click)="add()">ADICIONAR</button>
+        </form>
+    </app-card>
+</app-layout>
